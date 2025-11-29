@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 DJANGO_APPS = [
-    'account_user.apps.AccountUserConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -92,7 +91,7 @@ DATABASES = {
 }
 
 # Customize user model 
-AUTH_USER_MODEL = 'account_user.UserProfile'
+AUTH_USER_MODEL = ''
 
 
 # Password validation
